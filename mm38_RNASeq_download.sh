@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Download Mouse RNA-Seq data from NCBI
+# Download Mouse RNA-Seq data from NCBI, GEO number: GSE36025
 
 # Mouse
 #Liver
@@ -43,6 +43,10 @@ do
 wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX135/SRX135166/SRR4531$i/SRR4531$i.sra
 done
 
-#Cortex
-wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX186/SRX186042/SRR567480/SRR567480.sra
-wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX186/SRX186042/SRR567481/SRR567481.sra
+# Brain
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX186/SRX186051/SRR567498/SRR567498.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX186/SRX186051/SRR567499/SRR567499.sra
+
+# Cortex
+#wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX186/SRX186042/SRR567480/SRR567480.sra
+#wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX186/SRX186042/SRR567481/SRR567481.sra
